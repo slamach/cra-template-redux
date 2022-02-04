@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-slamach",
+  "description": "Шаблон для Create React App c Redux, Styled Components и Prettier.",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template"
+  ],
+  "version": "0.9.0",
+  "license": "MIT",
+  "author": "Dmitry Sviridov <sviridov.dvv@gmail.com> (https://dmitrysviridov.ru/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slamach/project-boilerplates.git",
+    "directory": "cra-template-slamach"
+  },
+  "bugs": {
+    "url": "https://github.com/slamach/project-boilerplates/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
