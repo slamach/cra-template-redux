@@ -1,0 +1,13 @@
+{
+  "package": {
+    "scripts": {
+      "prepare": "husky install"
+    },
+    "lint-staged": {
+      "src/**/*.{js,jsx,ts,tsx,json,scss}": "prettier --write"
+    },
+    "eslintConfig": {
+      "extends": ["react-app"]
+    }
+  }
+}

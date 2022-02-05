@@ -11,8 +11,8 @@
   "author": "Dmitry Sviridov <sviridov.dvv@gmail.com> (https://dmitrysviridov.ru/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/slamach/project-boilerplates.git",
-    "directory": "cra-template-slamach"
+    "url": "https://github.com/slamach/cra-template-slamach",
+    "directory": "/"
   },
   "bugs": {
     "url": "https://github.com/slamach/project-boilerplates/issues"
@@ -23,5 +23,24 @@
   ],
   "engines": {
     "node": ">=14"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "build:template": "node moveDependencies.js"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,scss}": "prettier --write"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.3",
+    "prettier": "2.5.1"
   }
 }
