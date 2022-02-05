@@ -17,7 +17,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
           registry-url: 'https://registry.npmjs.org'
       - name: Build template 🔧
-        run: npm run build:template
+        run: npm ci && npm run build:template
       - name: Publish package on NPM 📦
         run: npm publish
         env:
