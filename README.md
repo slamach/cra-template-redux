@@ -1,4 +1,4 @@
-# React App Boilerplate
+# CRA Redux Boilerplate
 
 ## О проекте
 
@@ -10,11 +10,11 @@
 - EditorConfig и Prettier
 
 ## Сборка и запуск
-Чтобы начать работу с шаблоном, нужно добавить `--template slamach` при создании нового проекта.
+Чтобы начать работу с шаблоном, нужно добавить `--template @slamach/redux` при создании нового проекта.
 
 Например:
 ```
-npx create-react-app project-name --template slamach
+npx create-react-app project-name --template @slamach/redux
 ```
 
 Чтобы заработал pre-commit хук, нужно инициализировать проект как Git-репозиторий и выполнить `npm run prepare`.
