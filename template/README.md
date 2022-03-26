@@ -1,16 +1,16 @@
 # Project Name
 
-## О проекте
-Описание проекта
+## About the Project
+Project description
 
-## Сборка и запуск
+## Installation and Usage
 ```
 npm install
 ```
 
-Чтобы заработал pre-commit хук, нужно выполнять `npm install`, когда проект уже инициализирован как Git-репозиторий.
+To make the pre-commit hook work, you need to run `npm install` when the project is already initialized as a Git repository.
 
-Если проект инициализируется как репозиторий позже, нужно дополнительно выполнить `npm run prepare`.
+If the project is initialized as a repository later, you need to additionally execute `npm run prepare`.
 
 ### Development
 ```
@@ -22,7 +22,7 @@ npm start
 npm build
 ```
 
-## Контакты
-Дмитрий Свиридов  
+## Contact
+Dmitry Sviridov  
 Telegram: [slamach](https://t.me/slamach)  
 Email: sviridov.dvv@gmail.com

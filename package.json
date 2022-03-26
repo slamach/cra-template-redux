@@ -1,6 +1,6 @@
 {
   "name": "@slamach/cra-template-redux",
-  "description": "Шаблон для Create React App c Redux, Styled Components и Prettier.",
+  "description": "Template for Create React App with Redux, Styled Components and Prettier.",
   "keywords": [
     "react",
     "create-react-app",
@@ -8,7 +8,7 @@
   ],
   "version": "1.0.1",
   "license": "MIT",
-  "author": "Dmitry Sviridov <sviridov.dvv@gmail.com> (https://dmitrysviridov.ru/)",
+  "author": "Dmitry Sviridov <sviridov.dvv@gmail.com> (https://dmitrysviridov.com/)",
   "repository": {
     "type": "git",
     "url": "https://github.com/slamach/cra-template-redux",

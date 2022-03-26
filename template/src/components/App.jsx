@@ -7,8 +7,8 @@ const App = (props) => {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <p>
-        This is React App Boilerplate by{' '}
-        <a href="https://dmitrysviridov.ru">Dmitry Sviridov</a>
+        This is React app template by{' '}
+        <a href="https://dmitrysviridov.com">Dmitry Sviridov</a>
       </p>
     </ThemeProvider>
   );

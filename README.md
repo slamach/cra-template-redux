@@ -1,23 +1,23 @@
 # CRA Redux Boilerplate
 
-## О проекте
+## About the Project
 
-Шаблон для [Create React App](https://github.com/facebook/create-react-app) c Redux, Styled Components и Prettier.
+Template for [Create React App](https://github.com/facebook/create-react-app) with Redux, Styled Components and Prettier.
 
-### Особенности проекта
-- Redux и Redux Toolkit
+### Features
+- Redux and Redux Toolkit
 - Styled Components
-- EditorConfig и Prettier
+- EditorConfig and Prettier
 
-## Сборка и запуск
-Чтобы начать работу с шаблоном, нужно добавить `--template @slamach/redux` при создании нового проекта.
+## Installation and Usage
+To apply the template you have to add `--template @slamach/redux` when creating a new project with `create-react-app`.
 
-Например:
+Example:
 ```
 npx create-react-app project-name --template @slamach/redux
 ```
 
-Чтобы заработал pre-commit хук, нужно инициализировать проект как Git-репозиторий и выполнить `npm run prepare`.
+To make the pre-commit hook work, you need to initialize project as a Git repository and execute `npm run prepare`.
 
 ### Development
 ```
@@ -29,8 +29,8 @@ npm start
 npm build
 ```
 
-## Контакты
-Дмитрий Свиридов  
+## Contact
+Dmitry Sviridov  
 Telegram: [slamach](https://t.me/slamach)  
 Email: sviridov.dvv@gmail.com
 
