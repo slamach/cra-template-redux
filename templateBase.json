@@ -7,7 +7,7 @@
       "src/**/*.{js,jsx,ts,tsx,json,scss}": "prettier --write"
     },
     "eslintConfig": {
-      "extends": ["react-app"]
+      "extends": ["react-app", "react-app/jest", "prettier"]
     }
   }
 }

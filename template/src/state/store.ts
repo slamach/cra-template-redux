@@ -1,8 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
-import appReducer from './modules/app';
+import mainReducer from './modules/main';
 
 export default configureStore({
-  reducer: {
-    app: appReducer,
-  },
+  reducer: { main: mainReducer },
 });
