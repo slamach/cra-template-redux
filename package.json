@@ -22,7 +22,7 @@
     "template.json"
   ],
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "scripts": {
     "prepare": "husky install",
@@ -34,24 +34,24 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
-    "@types/jest": "^29.5.3",
-    "@types/node": "^18.16.3",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
     "react-redux": "^8.0.4",
     "react-router-dom": "^6.14.2",
     "redux": "^4.2.1",
-    "styled-components": "^5.3.11",
-    "typescript": "^5.1.6"
+    "styled-components": "^5.3.11"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^18.16.3",
+    "@types/react": "^18.2.17",
+    "@types/react-dom": "^18.2.7",
     "@types/styled-components": "^5.1.26",
     "eslint-config-prettier": "^8.8.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "prettier": "3.0.0"
+    "prettier": "3.0.0",
+    "typescript": "^4.9.5"
   }
 }
