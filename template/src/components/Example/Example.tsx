@@ -1,15 +1,8 @@
 import React from 'react';
-import classNames from 'classnames';
 
-import styles from './Example.module.css';
-
-interface IExampleProps {
-  className?: string;
-}
-
-const Example: React.FC<IExampleProps> = ({ className }) => {
+const Example: React.FC = () => {
   return (
-    <p className={classNames(styles.container, className)}>
+    <p>
       This is React app template by{' '}
       <a href="https://dmitriisviridov.com">Dmitrii Sviridov</a>
     </p>
