@@ -1,11 +1,11 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-interface MainState {
-  replaceMeState: number[];
+interface IMainState {
+  replaceMe: number[];
 }
 
-const initialState: MainState = {
-  replaceMeState: [],
+const initialState: IMainState = {
+  replaceMe: [],
 };
 
 const mainSlice = createSlice({
@@ -14,13 +14,12 @@ const mainSlice = createSlice({
   reducers: {
     replaceMeAction: (
       state,
-      action: PayloadAction<MainState['replaceMeState']>
+      action: PayloadAction<IMainState['replaceMe']>
     ) => {
-      state.replaceMeState = action.payload;
+      state.replaceMe = action.payload;
     },
   },
 });
 
+export const mainReducer = mainSlice.reducer;
 export const { replaceMeAction } = mainSlice.actions;
-
-export default mainSlice.reducer;

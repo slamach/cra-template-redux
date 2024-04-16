@@ -1,9 +1,10 @@
+import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import Example from '../Example/Example';
+import { Example } from '../Example';
 import { GlobalStyle, theme } from './App.styled';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
@@ -15,4 +16,6 @@ const App = () => {
   );
 };
 
-export default App;
+const MemoizedApp = React.memo(App);
+
+export { MemoizedApp as App };
